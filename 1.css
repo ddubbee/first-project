@@ -1,0 +1,102 @@
+h1 {
+            font-size:45px;
+            text-align: center;
+            border: 3px solid black;
+            margin:0;
+            padding:20px;
+    }
+
+.won {
+            font-weight:bold;
+            color:red;}
+
+#grid {
+            
+            margin-top: 50px;
+    }
+
+    .rpg {
+        border:3px solid black;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    .indi {
+        border:3px solid black;
+        display: grid;
+        margin-top: 5px;
+        grid-template-columns: 150px 1fr;
+    }
+    .action {
+        border:3px solid black;
+        display: grid;
+        margin-top: 5px;
+        grid-template-columns: 150px 1fr;
+    }
+    .simulater {
+        border: 3px solid black;
+        display: grid;
+        margin-top: 5px;
+        grid-template-columns: 150px 1fr;
+    }
+    #rpg {
+        border-left: 3px solid black;
+        padding: 10px;
+        
+    }
+    #indi {
+        border-left: 3px solid black;
+        padding: 10px;
+    }
+    #simulater {
+        border-left: 3px solid black;
+        padding: 10px;
+    }
+    #action {
+        border-left: 3px solid black;
+        padding: 10px;
+    }
+    body {
+        background-color: whitesmoke;
+    }
+   
+      
+      #wrap {
+        min-height: 100vh;
+        position: relative;
+        width: 100%; 
+        background-color: #f2f2f2;
+      }
+      
+      section {
+        padding-bottom: 105px;
+      }
+      
+      footer {
+        width: 100%;
+        height: 90px;
+        bottom: 0px;
+        position: absolute;
+        border-top: 1px solid #c4c4c4;
+        padding-top: 15px;
+        color: #808080;
+        font-size: 11px;
+      }
+      
+      footer a {
+        display: inline-block;
+        margin: 0 20px 10px 20px;
+        color: #808080; font-size: 11px;
+      }
+      
+      footer a:visited {
+        color: #808080;
+      }
+      
+      footer p {
+        margin-top: 0; margin-bottom: 0;   
+      }
+      
+      footer p span {
+        display: inline-block;
+        margin-left: 20px;
+      }
